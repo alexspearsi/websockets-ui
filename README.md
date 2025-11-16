@@ -4,7 +4,7 @@
 
 ## Installation
 1. Clone/download repo
-2. `npm install`
+2. `npm install` 
 
 ## Usage
 **Development**
