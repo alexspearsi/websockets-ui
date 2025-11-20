@@ -5,17 +5,20 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "start": "node ./index.js",
-        "start:dev": "nodemon ./index.js",
+        "start": "tsx ./src/index.ts",
+        "start:dev": "nodemon ./index.ts",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Andrei Auchynnikau",
     "keywords": [],
     "license": "ISC",
     "devDependencies": {
+        "@types/ws": "^8.18.1",
         "nodemon": "^2.0.16"
     },
     "dependencies": {
+        "dotenv": "^17.2.3",
+        "tsx": "^4.20.6",
         "ws": "^8.8.0"
     }
 }
